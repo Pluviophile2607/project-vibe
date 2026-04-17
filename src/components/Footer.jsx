@@ -13,7 +13,7 @@ const Footer = () => {
         <a className="hover:text-[#E5E2E3] transition-colors" href="#">Instagram</a>
       </div>
       <div className="font-headline text-xs uppercase tracking-widest text-[#E5E2E3]/40">
-        © 2024 Studio Minimal. Built with AI.
+        © 2026 Studio Minimal.
       </div>
     </footer>
   );

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Pricing = () => {
   return (
-    <section className="py-32 bg-surface-container-lowest" id="pricing">
+    <section className="py-20 md:py-32 bg-surface-container-lowest" id="pricing">
       <div className="max-w-3xl mx-auto px-6 text-center">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}

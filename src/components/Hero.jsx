@@ -4,7 +4,7 @@ import Silk from './Silk';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center pt-32 pb-20 px-6 z-10 overflow-hidden">
+    <section className="relative min-h-screen flex flex-col items-center justify-center pt-24 md:pt-32 pb-16 md:pb-20 px-4 md:px-6 z-10 overflow-hidden">
       <Silk 
         speed={5} 
         scale={1} 
@@ -50,7 +50,7 @@ const Hero = () => {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.8 }}
-        className="mt-20 w-auto max-w-6xl mx-auto relative z-10 rounded-xl overflow-hidden border border-outline-variant/20 shadow-2xl"
+        className="mt-12 md:mt-20 w-auto max-w-6xl mx-auto relative z-10 rounded-xl overflow-hidden border border-outline-variant/20 shadow-2xl"
       >
         <img 
           src={heroSvg} 

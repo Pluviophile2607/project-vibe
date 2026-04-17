@@ -39,7 +39,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="py-32 bg-surface-container-low relative overflow-hidden" id="showcase">
+    <section className="py-20 md:py-32 bg-surface-container-low relative overflow-hidden" id="showcase">
       <div className="max-w-7xl mx-auto px-6">
         <div className="mb-20">
           <motion.h2 

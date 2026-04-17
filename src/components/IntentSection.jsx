@@ -4,7 +4,7 @@ import magicBarImg from '../assets/magic-bar.png';
 
 const IntentSection = () => {
   return (
-    <section className="py-32 bg-surface relative z-10" id="features">
+    <section className="py-20 md:py-32 bg-surface relative z-10" id="features">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row gap-16 items-center">
           <motion.div 
