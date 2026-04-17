@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import heroSvg from '../assets/editor Ui.svg';
 import Silk from './Silk';
+import { InteractiveHoverButton } from './InteractiveHoverButton';
 
 const Hero = () => {
   return (
@@ -33,17 +34,15 @@ const Hero = () => {
           Experience intent-based editing. Studio Minimal replaces complex track layers with an intelligent cinematic canvas, freeing you to direct rather than construct.
         </motion.p>
         
-        <motion.button 
+        <motion.div 
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, delay: 0.6 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="bg-primary-container text-on-primary-container font-headline font-bold text-lg px-8 py-4 rounded-full hover:brightness-105 transition-all duration-300 flex items-center gap-3"
         >
-          <span>Start Creating</span>
-          <span className="material-symbols-outlined text-xl">arrow_forward</span>
-        </motion.button>
+          <InteractiveHoverButton>Start Creating</InteractiveHoverButton>
+        </motion.div>
       </div>
 
       <motion.div 

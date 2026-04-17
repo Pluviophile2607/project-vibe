@@ -5,6 +5,15 @@
   body {
     @apply bg-surface-container-lowest text-on-surface font-body antialiased selection:bg-primary-container selection:text-white;
   }
+  
+  @media (any-hover: hover) and (any-pointer: fine) {
+    *, body, html {
+      cursor: none !important;
+    }
+    input, textarea, select {
+      cursor: text !important;
+    }
+  }
 }
 
 @layer components {
