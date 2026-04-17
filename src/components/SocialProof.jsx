@@ -17,13 +17,13 @@ const SocialProof = () => {
   const marqueeItems = [...logos, ...logos];
 
   return (
-    <section className="py-16 bg-surface-container-lowest border-t border-outline-variant/5 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 text-center mb-10">
+    <section className="py-6 md:py-8 bg-surface-container-lowest border-t border-outline-variant/5 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-6 text-center mb-4 md:mb-6">
         <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="font-headline text-xs tracking-widest uppercase text-on-surface-variant/60"
+          className="font-headline text-[10px] md:text-xs tracking-widest uppercase text-on-surface-variant/60"
         >
           Trusted by leading creative studios
         </motion.p>
@@ -41,11 +41,11 @@ const SocialProof = () => {
         />
 
         <div className="marquee-wrapper flex w-max">
-          <div className="marquee-track flex items-center gap-16 animate-marquee">
+          <div className="marquee-track flex items-center gap-8 md:gap-16 animate-marquee">
             {marqueeItems.map((logo, index) => (
               <span
                 key={index}
-                className="font-headline font-bold text-xl text-on-surface whitespace-nowrap opacity-30 hover:opacity-70 transition-opacity duration-300 cursor-default select-none"
+                className="font-headline font-bold text-base md:text-xl text-on-surface whitespace-nowrap opacity-30 hover:opacity-70 transition-opacity duration-300 cursor-default select-none"
               >
                 {logo}
               </span>
