@@ -10,7 +10,7 @@ import { SmoothCursor } from './components/SmoothCursor';
 
 function App() {
   return (
-    <div className="min-h-screen bg-surface-container-lowest text-on-surface cursor-none">
+    <div className="min-h-screen bg-surface-container-lowest text-on-surface cursor-none overflow-x-hidden">
       <SmoothCursor />
       <Navbar />
       <Hero />

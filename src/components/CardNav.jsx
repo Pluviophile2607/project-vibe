@@ -131,7 +131,7 @@ const CardNav = ({
 
   return (
     <div
-      className={`card-nav-container absolute left-1/2 -translate-x-1/2 w-[calc(100%-3rem)] md:w-[90%] max-w-[800px] z-[99] top-[1.2em] md:top-[2em] ${className}`}
+      className={`card-nav-container absolute left-4 right-4 md:left-1/2 md:right-auto md:-translate-x-1/2 w-auto md:w-[90%] max-w-[800px] z-[99] top-[1.2rem] md:top-[2rem] mx-auto ${className}`}
     >
       <nav
         ref={navRef}
